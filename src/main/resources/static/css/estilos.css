@@ -1,0 +1,123 @@
+*{
+    font-family: initial;
+}
+#menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    background-color: whitesmoke;
+    color: greenyellow;
+}
+#menu2{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: black;
+    color: white 
+}
+
+#logo{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    height: 100%;
+    width: 12%;
+}
+#hombre{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: lightblue;
+}
+#mujer{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    color: lightblue;
+}
+#zapatos{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: lightblue;
+}
+#sale{
+    position: absolute;
+    
+    left: 60%;
+    color: lightblue;
+}
+#menu h2{
+    top: 40%;
+    color: black;
+    ;
+}
+#menu h2:hover{
+    color: gray;
+    background-color: darkgrey;
+   
+}
+#barraizq {
+    position: absolute;
+    top: 24%;
+    left: 0;
+    height: 100%;
+    width: 15%;
+    background-color: black;
+    color: black;
+}
+#barraizq h3{
+    color: whitesmoke;
+}
+#barrader {
+    position: absolute;
+    top: 24%;
+    right:0;
+    height: 100%;
+    width: 15%;
+    background-color: black;
+    color: black;
+}
+#barrader h3{
+    color: whitesmoke;
+}
+
+#contenido{
+    top: 24%;
+    left: 15%;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;  
+    overflow: auto;
+    padding: 10px;
+}
+#Hombreimg{
+    position: absolute;
+    top: 26%;
+    left: 17%;
+    height: 700px;
+    width: 600px;
+}
+#Mujerimg{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    height: 700px;
+    width: 600px;
+}
+
+#piepagina{
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    height:4%;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
