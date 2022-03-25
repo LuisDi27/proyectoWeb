@@ -1,9 +1,10 @@
 *{
     font-family: initial;
+    
+    
 }
 #menu{
     position: absolute;
-    
     top: 0;
     left: 0;
     height: 10%;
@@ -16,8 +17,8 @@
     position: absolute;
     top: 5%;
     left: 5%;
-    height: 175px;
-    width: 275px;
+/*    height: 175px;
+    width: 275px;*/
     color: black;
 }
 #carrito{
@@ -86,35 +87,31 @@
 #nav h2{
     top: 3%;
     color: white;
-    ;
-}
-#nav h2:hover{
-    color: whitesmoke;
-    background-color: blue;
-   
 }
 #barraizq {
     position: absolute;
-    top: 24%;
+    top: 17%;
     left: 0;
-    height: 100%;
+    bottom:0; 
+/*    height: 82%;*/
     width: 15%;
-    background-color: black;
+    background-color: whitesmoke;
     color: black;
+    border-right: black solid medium;
 }
 #barraizq h3{
-    color: whitesmoke;
+    color: black;
+}
+#barraizq article{
+    border: black solid thin;
+    left: 5%;
+    top: 5%;
 }
 
-#contenido{
-    top: 24%;
-    left: 15%;
-    width: 100%;
-    height: 100%;
-    background-color: whitesmoke;  
-    overflow: auto;
-    padding: 10px;
+#barraizq article h3{
+    text-align: center;
 }
+
 #Hombreimg{
     position: absolute;
     top: 26%;
@@ -132,7 +129,7 @@
 
 #piepagina{
     position: fixed;
-    bottom: 0%;
+    bottom:0%;
     left: 0%;
     height:4%;
     width: 100%;
@@ -140,4 +137,102 @@
     color: whitesmoke;
     text-align: center;
 }
+#seccionh{
+    overflow: auto;
+    top: 17%;
+    left:15%; 
+    bottom: 0;
+    
+}
+#seccionh article{   
+    border: black solid thin;   
+    
+}
 
+#articulo1{
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+#articulo2{
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+#articulo3{
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+#articulo4{
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    left: 80%;
+    top: 20%;
+}
+#articulo5{
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    left: 20%;
+    top: 60%;
+}
+#articulo6{
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+}
+#articulo7{
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    left: 60%;
+    top: 60%;
+}
+#articulo8{
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    left: 80%;
+    top: 60%;
+}
+#articulo9{
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    left: 20%;
+    top: 100%;
+}
+#articulo10{
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    left: 40%;
+    top: 100%;
+}
+#articulo11{
+    text-align: center;
+    align-content: center;
+    position: fixed;
+    left: 60%;
+    top: 100%;
+}
+
+#btnCarr{
+    background-color: black;
+    color: white;
+   
+}
+#btnCarr:hover{
+    background-color: whitesmoke;
+    color: black;
+}
