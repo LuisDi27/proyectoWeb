@@ -3,62 +3,94 @@
 }
 #menu{
     position: absolute;
+    
     top: 0;
     left: 0;
-    height: 20%;
+    height: 10%;
     width: 100%;
     background-color: whitesmoke;
-    color: greenyellow;
 }
-#menu2{
+#logoprin{
+    font-weight: bold;
+    text-decoration: none;
     position: absolute;
-    top: 20%;
+    top: 5%;
+    left: 5%;
+    height: 175px;
+    width: 275px;
+    color: black;
+}
+#carrito{
+    position: absolute;
+    top: 25%;
+    right:5%;
+    height: 40px;
+    width: 40px;
+}
+#envios{
+    position: absolute;
+    top: 25%;
+    right:10%;
+    height: 40px;
+    width: 40px;
+}
+#registrar{
+    text-decoration: none;
+    position: absolute;
+    top: 5%;
+    right: 30%;
+    color: black;
+}
+#inicioses{
+    text-decoration: none;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    color: black;  
+}
+#nav{
+    position: absolute;
+    top: 10%;
     left: 0;
-    height: 4%;
+    height: 7%;
     width: 100%;
     background-color: black;
     color: white 
 }
 
-#logo{
-    position: absolute;
-    top: 0%;
-    left: 0;
-    height: 100%;
-    width: 12%;
-}
+
 #hombre{
     position: absolute;
-    top: 10%;
+    top: 3%;
     left: 30%;
-    color: lightblue;
 }
 #mujer{
     position: absolute;
     top: 10%;
     left: 40%;
-    color: lightblue;
+    
 }
-#zapatos{
+#niños{
     position: absolute;
     top: 10%;
     left: 50%;
-    color: lightblue;
+   
 }
-#sale{
+
+#descuentos{
     position: absolute;
-    
+    top: 10%;
     left: 60%;
-    color: lightblue;
+   
 }
-#menu h2{
-    top: 40%;
-    color: black;
+#nav h2{
+    top: 3%;
+    color: white;
     ;
 }
-#menu h2:hover{
-    color: gray;
-    background-color: darkgrey;
+#nav h2:hover{
+    color: whitesmoke;
+    background-color: blue;
    
 }
 #barraizq {
@@ -71,18 +103,6 @@
     color: black;
 }
 #barraizq h3{
-    color: whitesmoke;
-}
-#barrader {
-    position: absolute;
-    top: 24%;
-    right:0;
-    height: 100%;
-    width: 15%;
-    background-color: black;
-    color: black;
-}
-#barrader h3{
     color: whitesmoke;
 }
 
